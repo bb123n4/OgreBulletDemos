@@ -71,34 +71,123 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 341338508;
-			PBXWorkspaceStateSaveDate = 341338508;
+			PBXPerProjectTemplateStateSaveDate = 341339709;
+			PBXWorkspaceStateSaveDate = 341339709;
 		};
 		perUserProjectItems = {
-			73D3B7A614586A7600DEE9DC /* PBXTextBookmark */ = 73D3B7A614586A7600DEE9DC /* PBXTextBookmark */;
-			73D3B7A714586A7600DEE9DC /* PBXTextBookmark */ = 73D3B7A714586A7600DEE9DC /* PBXTextBookmark */;
-			73D3B7A814586A7600DEE9DC /* PBXTextBookmark */ = 73D3B7A814586A7600DEE9DC /* PBXTextBookmark */;
-			73D3B7A914586A7600DEE9DC /* PBXTextBookmark */ = 73D3B7A914586A7600DEE9DC /* PBXTextBookmark */;
-			73D3B7B914586A8E00DEE9DC /* XCBuildMessageTextBookmark */ = 73D3B7B914586A8E00DEE9DC /* XCBuildMessageTextBookmark */;
-			73D3B7BA14586A8E00DEE9DC /* PBXTextBookmark */ = 73D3B7BA14586A8E00DEE9DC /* PBXTextBookmark */;
-			73D3B7C114586AAA00DEE9DC /* PBXTextBookmark */ = 73D3B7C114586AAA00DEE9DC /* PBXTextBookmark */;
-			73D3B7C214586AAA00DEE9DC /* XCBuildMessageTextBookmark */ = 73D3B7C214586AAA00DEE9DC /* XCBuildMessageTextBookmark */;
-			73D3B7C414586AAA00DEE9DC /* PBXTextBookmark */ = 73D3B7C414586AAA00DEE9DC /* PBXTextBookmark */;
-			73D3B7C914586ABE00DEE9DC /* PBXTextBookmark */ = 73D3B7C914586ABE00DEE9DC /* PBXTextBookmark */;
-			73D3B7CA14586ABE00DEE9DC /* XCBuildMessageTextBookmark */ = 73D3B7CA14586ABE00DEE9DC /* XCBuildMessageTextBookmark */;
-			73D3B7CC14586ABE00DEE9DC /* PBXTextBookmark */ = 73D3B7CC14586ABE00DEE9DC /* PBXTextBookmark */;
+			733238AB14586E350082813F /* PBXTextBookmark */ = 733238AB14586E350082813F /* PBXTextBookmark */;
+			733238AC14586E350082813F /* PBXTextBookmark */ = 733238AC14586E350082813F /* PBXTextBookmark */;
+			733238AD14586E350082813F /* PBXTextBookmark */ = 733238AD14586E350082813F /* PBXTextBookmark */;
+			733238AF14586E350082813F /* PBXTextBookmark */ = 733238AF14586E350082813F /* PBXTextBookmark */;
+			733238B014586E350082813F /* PBXTextBookmark */ = 733238B014586E350082813F /* PBXTextBookmark */;
+			733238BB14586E3F0082813F /* PBXTextBookmark */ = 733238BB14586E3F0082813F /* PBXTextBookmark */;
+			733238C7145870510082813F /* PBXTextBookmark */ = 733238C7145870510082813F /* PBXTextBookmark */;
 			73D3B7D314586AD800DEE9DC /* PBXTextBookmark */ = 73D3B7D314586AD800DEE9DC /* PBXTextBookmark */;
 			73D3B7D414586AD800DEE9DC /* PBXTextBookmark */ = 73D3B7D414586AD800DEE9DC /* PBXTextBookmark */;
 			73D3B7D514586AD800DEE9DC /* PBXTextBookmark */ = 73D3B7D514586AD800DEE9DC /* PBXTextBookmark */;
-			73D3B7D614586AD800DEE9DC /* PBXTextBookmark */ = 73D3B7D614586AD800DEE9DC /* PBXTextBookmark */;
-			73D3B7D714586AD800DEE9DC /* XCBuildMessageTextBookmark */ = 73D3B7D714586AD800DEE9DC /* XCBuildMessageTextBookmark */;
-			73D3B7D914586AD800DEE9DC /* PBXTextBookmark */ = 73D3B7D914586AD800DEE9DC /* PBXTextBookmark */;
-			73D3B7DF14586B3B00DEE9DC /* PBXTextBookmark */ = 73D3B7DF14586B3B00DEE9DC /* PBXTextBookmark */;
-			73D3B7E914586B5F00DEE9DC /* PBXTextBookmark */ = 73D3B7E914586B5F00DEE9DC /* PBXTextBookmark */;
 		};
 		sourceControlManager = 73D3B794145869A900DEE9DC /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	7332389214586D4E0082813F /* vehicle_demo.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 845}}";
+			sepNavSelRange = "{303, 0}";
+			sepNavVisRange = "{0, 1293}";
+			sepNavWindowFrame = "{{15, 465}, {750, 558}}";
+		};
+	};
+	7332389314586D4E0082813F /* vehicle_demo.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 6305}}";
+			sepNavSelRange = "{548, 0}";
+			sepNavVisRange = "{0, 1492}";
+		};
+	};
+	7332389C14586E040082813F /* OgreBulletCollisionsPreRequisites.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = OgreBulletCollisionsPreRequisites.h;
+		path = /Users/ianbaldwin/code/simulation/ogre.bullet.demo/../../../Library/Frameworks/OgreBullet.framework/Headers/OgreBulletCollisionsPreRequisites.h;
+		sourceTree = "<absolute>";
+	};
+	733238AB14586E350082813F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73D3B7CB14586ABE00DEE9DC /* OgreGLPrerequisites.h */;
+		name = "OgreGLPrerequisites.h: 64";
+		rLen = 0;
+		rLoc = 2176;
+		rType = 0;
+		vrLen = 1344;
+		vrLoc = 1643;
+	};
+	733238AC14586E350082813F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* demoAppDelegate.mm */;
+		name = "demoAppDelegate.mm: 80";
+		rLen = 0;
+		rLoc = 3001;
+		rType = 0;
+		vrLen = 2136;
+		vrLoc = 865;
+	};
+	733238AD14586E350082813F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 733238AE14586E350082813F /* Vehicle_Demo.h */;
+		name = "Vehicle_Demo.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1638;
+		vrLoc = 0;
+	};
+	733238AE14586E350082813F /* Vehicle_Demo.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = Vehicle_Demo.h;
+		path = /Users/ianbaldwin/code/simulation/ogre.bullet/src/Demos/Dynamics_Demos/include/Vehicle_Demo.h;
+		sourceTree = "<absolute>";
+	};
+	733238AF14586E350082813F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7332389214586D4E0082813F /* vehicle_demo.h */;
+		name = "vehicle_demo.h: 9";
+		rLen = 0;
+		rLoc = 1468;
+		rType = 0;
+		vrLen = 141;
+		vrLoc = 0;
+	};
+	733238B014586E350082813F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7332389C14586E040082813F /* OgreBulletCollisionsPreRequisites.h */;
+		name = "OgreBulletCollisionsPreRequisites.h: 39";
+		rLen = 0;
+		rLoc = 1746;
+		rType = 0;
+		vrLen = 1995;
+		vrLoc = 0;
+	};
+	733238BB14586E3F0082813F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7332389314586D4E0082813F /* vehicle_demo.cpp */;
+		name = "vehicle_demo.cpp: 22";
+		rLen = 0;
+		rLoc = 548;
+		rType = 0;
+		vrLen = 1492;
+		vrLoc = 0;
+	};
+	733238C7145870510082813F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7332389214586D4E0082813F /* vehicle_demo.h */;
+		name = "vehicle_demo.h: 15";
+		rLen = 0;
+		rLoc = 303;
+		rType = 0;
+		vrLen = 1293;
+		vrLoc = 0;
 	};
 	73D3B7871458698C00DEE9DC /* OgreBulletDemo */ = {
 		isa = PBXExecutable;
@@ -151,134 +240,12 @@
 			sepNavVisRange = "{0, 22}";
 		};
 	};
-	73D3B7A614586A7600DEE9DC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D80F4B6AC300CF3369 /* demoAppDelegate.h */;
-		name = "demoAppDelegate.h: 10";
-		rLen = 0;
-		rLoc = 186;
-		rType = 0;
-		vrLen = 448;
-		vrLoc = 0;
-	};
-	73D3B7A714586A7600DEE9DC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D90F4B6AC300CF3369 /* demoAppDelegate.mm */;
-		name = "demoAppDelegate.m: 80";
-		rLen = 0;
-		rLoc = 3001;
-		rType = 0;
-		vrLen = 2136;
-		vrLoc = 865;
-	};
-	73D3B7A814586A7600DEE9DC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 73D3B79B14586A1C00DEE9DC /* plugins.cfg */;
-		name = "plugins.cfg: 1";
-		rLen = 0;
-		rLoc = 22;
-		rType = 0;
-		vrLen = 0;
-		vrLoc = 0;
-	};
-	73D3B7A914586A7600DEE9DC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 73D3B79B14586A1C00DEE9DC /* plugins.cfg */;
-		name = "plugins.cfg: 1";
-		rLen = 0;
-		rLoc = 22;
-		rType = 0;
-		vrLen = 22;
-		vrLoc = 0;
-	};
-	73D3B7B914586A8E00DEE9DC /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "Ogre/Ogre.h: No such file or directory";
-		fRef = 256AC3D80F4B6AC300CF3369 /* demoAppDelegate.h */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 8;
-		rType = 1;
-	};
-	73D3B7BA14586A8E00DEE9DC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D80F4B6AC300CF3369 /* demoAppDelegate.h */;
-		name = "demoAppDelegate.h: 9";
-		rLen = 0;
-		rLoc = 131;
-		rType = 0;
-		vrLen = 325;
-		vrLoc = 0;
-	};
-	73D3B7C114586AAA00DEE9DC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D80F4B6AC300CF3369 /* demoAppDelegate.h */;
-		name = "demoAppDelegate.h: 9";
-		rLen = 0;
-		rLoc = 131;
-		rType = 0;
-		vrLen = 325;
-		vrLoc = 0;
-	};
-	73D3B7C214586AAA00DEE9DC /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "Expected '=', ',', ';', 'asm' or '__attribute__' before 'Ogre'";
-		fRef = 73D3B7C314586AAA00DEE9DC /* OgrePlatform.h */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 32;
-		rType = 1;
-	};
 	73D3B7C314586AAA00DEE9DC /* OgrePlatform.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = OgrePlatform.h;
 		path = /Users/ianbaldwin/code/simulation/demo/../../../Library/Frameworks/Ogre.framework/Headers/OgrePlatform.h;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1411, 4095}}";
-			sepNavSelRange = "{1434, 0}";
-			sepNavVisRange = "{0, 1958}";
-		};
-	};
-	73D3B7C414586AAA00DEE9DC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 73D3B7C514586AAA00DEE9DC /* OgrePlatform.h */;
-		name = "OgrePlatform.h: 33";
-		rLen = 0;
-		rLoc = 1434;
-		rType = 0;
-		vrLen = 400;
-		vrLoc = 1195;
-	};
-	73D3B7C514586AAA00DEE9DC /* OgrePlatform.h */ = {
-		isa = PBXFileReference;
-		name = OgrePlatform.h;
-		path = /Users/ianbaldwin/code/simulation/demo/../../../Library/Frameworks/Ogre.framework/Headers/OgrePlatform.h;
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {551, 4056}}";
-			sepNavSelRange = "{1434, 0}";
-			sepNavVisRange = "{1195, 400}";
-		};
-	};
-	73D3B7C914586ABE00DEE9DC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 73D3B7C514586AAA00DEE9DC /* OgrePlatform.h */;
-		name = "OgrePlatform.h: 33";
-		rLen = 0;
-		rLoc = 1434;
-		rType = 0;
-		vrLen = 400;
-		vrLoc = 1195;
-	};
-	73D3B7CA14586ABE00DEE9DC /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "GL/glew.h: No such file or directory";
-		fRef = 73D3B7CB14586ABE00DEE9DC /* OgreGLPrerequisites.h */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 68;
-		rType = 1;
 	};
 	73D3B7CB14586ABE00DEE9DC /* OgreGLPrerequisites.h */ = {
 		isa = PBXFileReference;
@@ -286,33 +253,6 @@
 		name = OgreGLPrerequisites.h;
 		path = /Users/ianbaldwin/code/simulation/demo/../../../Library/Frameworks/Ogre.framework/Headers/OgreGLPrerequisites.h;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1411, 1352}}";
-			sepNavSelRange = "{2039, 0}";
-			sepNavVisRange = "{1667, 1353}";
-		};
-	};
-	73D3B7CC14586ABE00DEE9DC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 73D3B7CD14586ABE00DEE9DC /* OgreGLPrerequisites.h */;
-		name = "OgreGLPrerequisites.h: 69";
-		rLen = 0;
-		rLoc = 2315;
-		rType = 0;
-		vrLen = 394;
-		vrLoc = 2079;
-	};
-	73D3B7CD14586ABE00DEE9DC /* OgreGLPrerequisites.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = OgreGLPrerequisites.h;
-		path = /Users/ianbaldwin/code/simulation/demo/../../../Library/Frameworks/Ogre.framework/Headers/OgreGLPrerequisites.h;
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1411, 1352}}";
-			sepNavSelRange = "{2176, 0}";
-			sepNavVisRange = "{1667, 1286}";
-		};
 	};
 	73D3B7D314586AD800DEE9DC /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -343,62 +283,6 @@
 		rType = 0;
 		vrLen = 1958;
 		vrLoc = 0;
-	};
-	73D3B7D614586AD800DEE9DC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D90F4B6AC300CF3369 /* demoAppDelegate.mm */;
-		name = "demoAppDelegate.mm: 80";
-		rLen = 0;
-		rLoc = 3001;
-		rType = 0;
-		vrLen = 2136;
-		vrLoc = 865;
-	};
-	73D3B7D714586AD800DEE9DC /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "GL/glew.h: No such file or directory";
-		fRef = 73D3B7D814586AD800DEE9DC /* OgreGLPrerequisites.h */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 68;
-		rType = 1;
-	};
-	73D3B7D814586AD800DEE9DC /* OgreGLPrerequisites.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = OgreGLPrerequisites.h;
-		path = /Users/ianbaldwin/code/simulation/demo/../../../Library/Frameworks/Ogre.framework/Headers/OgreGLPrerequisites.h;
-		sourceTree = "<absolute>";
-	};
-	73D3B7D914586AD800DEE9DC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 73D3B7CB14586ABE00DEE9DC /* OgreGLPrerequisites.h */;
-		name = "OgreGLPrerequisites.h: 59";
-		rLen = 0;
-		rLoc = 2039;
-		rType = 0;
-		vrLen = 1353;
-		vrLoc = 1667;
-	};
-	73D3B7DF14586B3B00DEE9DC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 73D3B7CD14586ABE00DEE9DC /* OgreGLPrerequisites.h */;
-		name = "OgreGLPrerequisites.h: 69";
-		rLen = 0;
-		rLoc = 2315;
-		rType = 0;
-		vrLen = 324;
-		vrLoc = 2079;
-	};
-	73D3B7E914586B5F00DEE9DC /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 73D3B7CD14586ABE00DEE9DC /* OgreGLPrerequisites.h */;
-		name = "OgreGLPrerequisites.h: 64";
-		rLen = 0;
-		rLoc = 2176;
-		rType = 0;
-		vrLen = 1286;
-		vrLoc = 1667;
 	};
 	8D1107260486CEB800E47090 /* OgreBulletDemo */ = {
 		activeExec = 0;

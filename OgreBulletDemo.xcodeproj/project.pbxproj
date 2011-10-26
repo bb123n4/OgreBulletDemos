@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		256AC3DA0F4B6AC300CF3369 /* demoAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* demoAppDelegate.mm */; };
+		7332389414586D4E0082813F /* vehicle_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7332389314586D4E0082813F /* vehicle_demo.cpp */; };
+		7332389814586DFB0082813F /* OgreBullet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7332389714586DFB0082813F /* OgreBullet.framework */; };
 		73D3B79A14586A1100DEE9DC /* RenderSystem_GL.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D3B79914586A1100DEE9DC /* RenderSystem_GL.dylib */; };
 		73D3B79D14586A3700DEE9DC /* plugins.cfg in Copy Resources */ = {isa = PBXBuildFile; fileRef = 73D3B79B14586A1C00DEE9DC /* plugins.cfg */; };
 		73D3B79F14586A4C00DEE9DC /* RenderSystem_GL.dylib in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 73D3B79914586A1100DEE9DC /* RenderSystem_GL.dylib */; };
@@ -56,6 +58,9 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		7332389214586D4E0082813F /* vehicle_demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vehicle_demo.h; sourceTree = "<group>"; };
+		7332389314586D4E0082813F /* vehicle_demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vehicle_demo.cpp; sourceTree = "<group>"; };
+		7332389714586DFB0082813F /* OgreBullet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OgreBullet.framework; path = /Users/ianbaldwin/Library/Frameworks/OgreBullet.framework; sourceTree = "<absolute>"; };
 		73D3B79914586A1100DEE9DC /* RenderSystem_GL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = RenderSystem_GL.dylib; path = ../ogre.build/lib/Debug/RenderSystem_GL.dylib; sourceTree = SOURCE_ROOT; };
 		73D3B79B14586A1C00DEE9DC /* plugins.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = plugins.cfg; sourceTree = "<group>"; };
 		73D3B7BB14586AA200DEE9DC /* Ogre.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogre.framework; path = /Users/ianbaldwin/Library/Frameworks/Ogre.framework; sourceTree = "<absolute>"; };
@@ -72,6 +77,7 @@
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				73D3B79A14586A1100DEE9DC /* RenderSystem_GL.dylib in Frameworks */,
 				73D3B7BC14586AA200DEE9DC /* Ogre.framework in Frameworks */,
+				7332389814586DFB0082813F /* OgreBullet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +89,8 @@
 			children = (
 				256AC3D80F4B6AC300CF3369 /* demoAppDelegate.h */,
 				256AC3D90F4B6AC300CF3369 /* demoAppDelegate.mm */,
+				7332389214586D4E0082813F /* vehicle_demo.h */,
+				7332389314586D4E0082813F /* vehicle_demo.cpp */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -123,6 +131,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				7332389714586DFB0082813F /* OgreBullet.framework */,
 			);
 			name = demo;
 			sourceTree = "<group>";
@@ -231,6 +240,7 @@
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				256AC3DA0F4B6AC300CF3369 /* demoAppDelegate.mm in Sources */,
+				7332389414586D4E0082813F /* vehicle_demo.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +322,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
+					/usr/local/include/bullet,
 					/usr/local/include,
 					/Users/ianbaldwin/code/thirdparty/boost,
 				);
