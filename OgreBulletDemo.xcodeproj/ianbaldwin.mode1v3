@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -268,10 +266,11 @@
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>73D3B798145869FC00DEE9DC</string>
 								<string>080E96DDFE201D6D7F000001</string>
-								<string>29B97315FDCFA39411CA2CEA</string>
+								<string>730304C714595E0100FE2492</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>1058C7A0FEA54F0111CA2CBB</string>
+								<string>730304BB14595D8E00FE2492</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>7303047614595C1600FE2492</string>
 								<string>7303047714595C1600FE2492</string>
@@ -283,13 +282,12 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>27</integer>
-									<integer>26</integer>
-									<integer>0</integer>
+									<integer>37</integer>
+									<integer>36</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {451, 881}}</string>
+							<string>{{0, 136}, {451, 881}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -319,6 +317,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -336,7 +336,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>730304C414595D9500FE2492</string>
+										<string>7303051114595F9C00FE2492</string>
 										<key>history</key>
 										<array>
 											<string>73D3B7D314586AD800DEE9DC</string>
@@ -347,7 +347,7 @@
 											<string>730304A414595CF800FE2492</string>
 											<string>730304A514595CF800FE2492</string>
 											<string>730304A614595CF800FE2492</string>
-											<string>730304A214595CF700FE2492</string>
+											<string>730304E314595E9700FE2492</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -569,6 +569,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -591,8 +593,6 @@
 							<string>712pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>

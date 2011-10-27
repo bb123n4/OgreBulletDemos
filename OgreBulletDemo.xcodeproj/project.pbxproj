@@ -17,6 +17,12 @@
 		7303049E14595CDC00FE2492 /* OgreBulletListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7303049914595CDC00FE2492 /* OgreBulletListener.cpp */; };
 		730304B614595D7500FE2492 /* libOIS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 730304B514595D7500FE2492 /* libOIS.a */; };
 		730304BC14595D8E00FE2492 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730304BB14595D8E00FE2492 /* IOKit.framework */; };
+		730304D714595E3000FE2492 /* Constraints_Demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 730304D014595E3000FE2492 /* Constraints_Demo.cpp */; };
+		730304D914595E3000FE2492 /* Primitives_Demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 730304D214595E3000FE2492 /* Primitives_Demo.cpp */; };
+		730304DA14595E3000FE2492 /* Ragdoll_Demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 730304D314595E3000FE2492 /* Ragdoll_Demo.cpp */; };
+		730304DB14595E3000FE2492 /* Terrain_Demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 730304D414595E3000FE2492 /* Terrain_Demo.cpp */; };
+		730304DC14595E3000FE2492 /* TriMesh_Demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 730304D514595E3000FE2492 /* TriMesh_Demo.cpp */; };
+		730304DD14595E3000FE2492 /* Vehicle_Demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 730304D614595E3000FE2492 /* Vehicle_Demo.cpp */; };
 		7332389814586DFB0082813F /* OgreBullet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7332389714586DFB0082813F /* OgreBullet.framework */; };
 		73D3B79A14586A1100DEE9DC /* RenderSystem_GL.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D3B79914586A1100DEE9DC /* RenderSystem_GL.dylib */; };
 		73D3B79F14586A4C00DEE9DC /* RenderSystem_GL.dylib in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 73D3B79914586A1100DEE9DC /* RenderSystem_GL.dylib */; };
@@ -75,6 +81,18 @@
 		7303049914595CDC00FE2492 /* OgreBulletListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OgreBulletListener.cpp; path = src.cpp/common/OgreBulletListener.cpp; sourceTree = "<group>"; };
 		730304B514595D7500FE2492 /* libOIS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOIS.a; path = ../Dependencies/lib/Debug/libOIS.a; sourceTree = SOURCE_ROOT; };
 		730304BB14595D8E00FE2492 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		730304C814595E1A00FE2492 /* Constraints_Demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constraints_Demo.h; path = src.cpp/Dynamics_Demos/include/Constraints_Demo.h; sourceTree = "<group>"; };
+		730304C914595E1A00FE2492 /* Primitives_Demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Primitives_Demo.h; path = src.cpp/Dynamics_Demos/include/Primitives_Demo.h; sourceTree = "<group>"; };
+		730304CA14595E1A00FE2492 /* Ragdoll_Demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ragdoll_Demo.h; path = src.cpp/Dynamics_Demos/include/Ragdoll_Demo.h; sourceTree = "<group>"; };
+		730304CB14595E1A00FE2492 /* Terrain_Demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Terrain_Demo.h; path = src.cpp/Dynamics_Demos/include/Terrain_Demo.h; sourceTree = "<group>"; };
+		730304CC14595E1A00FE2492 /* TriMesh_Demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TriMesh_Demo.h; path = src.cpp/Dynamics_Demos/include/TriMesh_Demo.h; sourceTree = "<group>"; };
+		730304CD14595E1A00FE2492 /* Vehicle_Demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vehicle_Demo.h; path = src.cpp/Dynamics_Demos/include/Vehicle_Demo.h; sourceTree = "<group>"; };
+		730304D014595E3000FE2492 /* Constraints_Demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Constraints_Demo.cpp; path = src.cpp/Dynamics_Demos/src/Constraints_Demo.cpp; sourceTree = "<group>"; };
+		730304D214595E3000FE2492 /* Primitives_Demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Primitives_Demo.cpp; path = src.cpp/Dynamics_Demos/src/Primitives_Demo.cpp; sourceTree = "<group>"; };
+		730304D314595E3000FE2492 /* Ragdoll_Demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Ragdoll_Demo.cpp; path = src.cpp/Dynamics_Demos/src/Ragdoll_Demo.cpp; sourceTree = "<group>"; };
+		730304D414595E3000FE2492 /* Terrain_Demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Terrain_Demo.cpp; path = src.cpp/Dynamics_Demos/src/Terrain_Demo.cpp; sourceTree = "<group>"; };
+		730304D514595E3000FE2492 /* TriMesh_Demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TriMesh_Demo.cpp; path = src.cpp/Dynamics_Demos/src/TriMesh_Demo.cpp; sourceTree = "<group>"; };
+		730304D614595E3000FE2492 /* Vehicle_Demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vehicle_Demo.cpp; path = src.cpp/Dynamics_Demos/src/Vehicle_Demo.cpp; sourceTree = "<group>"; };
 		7332389714586DFB0082813F /* OgreBullet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OgreBullet.framework; path = /Users/ianbaldwin/Library/Frameworks/OgreBullet.framework; sourceTree = "<absolute>"; };
 		73D3B79914586A1100DEE9DC /* RenderSystem_GL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = RenderSystem_GL.dylib; path = ../ogre.build/lib/Debug/RenderSystem_GL.dylib; sourceTree = SOURCE_ROOT; };
 		73D3B7BB14586AA200DEE9DC /* Ogre.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogre.framework; path = /Users/ianbaldwin/Library/Frameworks/Ogre.framework; sourceTree = "<absolute>"; };
@@ -113,6 +131,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7332389714586DFB0082813F /* OgreBullet.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 				73D3B7BB14586AA200DEE9DC /* Ogre.framework */,
 				730304BB14595D8E00FE2492 /* IOKit.framework */,
@@ -144,10 +163,10 @@
 				73D3B798145869FC00DEE9DC /* Plugins */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				730304C714595E0100FE2492 /* Demos */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				7332389714586DFB0082813F /* OgreBullet.framework */,
 			);
 			name = demo;
 			sourceTree = "<group>";
@@ -189,6 +208,25 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		730304C714595E0100FE2492 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				730304D014595E3000FE2492 /* Constraints_Demo.cpp */,
+				730304D214595E3000FE2492 /* Primitives_Demo.cpp */,
+				730304D314595E3000FE2492 /* Ragdoll_Demo.cpp */,
+				730304D414595E3000FE2492 /* Terrain_Demo.cpp */,
+				730304D514595E3000FE2492 /* TriMesh_Demo.cpp */,
+				730304D614595E3000FE2492 /* Vehicle_Demo.cpp */,
+				730304C814595E1A00FE2492 /* Constraints_Demo.h */,
+				730304C914595E1A00FE2492 /* Primitives_Demo.h */,
+				730304CA14595E1A00FE2492 /* Ragdoll_Demo.h */,
+				730304CB14595E1A00FE2492 /* Terrain_Demo.h */,
+				730304CC14595E1A00FE2492 /* TriMesh_Demo.h */,
+				730304CD14595E1A00FE2492 /* Vehicle_Demo.h */,
+			);
+			name = Demos;
 			sourceTree = "<group>";
 		};
 		73D3B798145869FC00DEE9DC /* Plugins */ = {
@@ -271,6 +309,12 @@
 				7303049C14595CDC00FE2492 /* OgreBulletGuiListener.cpp in Sources */,
 				7303049D14595CDC00FE2492 /* OgreBulletInputListener.cpp in Sources */,
 				7303049E14595CDC00FE2492 /* OgreBulletListener.cpp in Sources */,
+				730304D714595E3000FE2492 /* Constraints_Demo.cpp in Sources */,
+				730304D914595E3000FE2492 /* Primitives_Demo.cpp in Sources */,
+				730304DA14595E3000FE2492 /* Ragdoll_Demo.cpp in Sources */,
+				730304DB14595E3000FE2492 /* Terrain_Demo.cpp in Sources */,
+				730304DC14595E3000FE2492 /* TriMesh_Demo.cpp in Sources */,
+				730304DD14595E3000FE2492 /* Vehicle_Demo.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +361,10 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/../ogre.build/lib/Debug\"",
 					"\"$(SRCROOT)/../Dependencies/lib/Debug\"",
+				);
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib",
+					"-lBulletCollision",
 				);
 				PRODUCT_NAME = OgreBulletDemo;
 			};
