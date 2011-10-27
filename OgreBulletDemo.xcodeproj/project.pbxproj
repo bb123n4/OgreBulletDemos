@@ -10,6 +10,13 @@
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		7303046F14595BC500FE2492 /* demoAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7303046E14595BC500FE2492 /* demoAppDelegate.mm */; };
 		7303048714595C5800FE2492 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7303048614595C5800FE2492 /* main.m */; };
+		7303049A14595CDC00FE2492 /* BetaGUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7303049514595CDC00FE2492 /* BetaGUI.cpp */; };
+		7303049B14595CDC00FE2492 /* OgreBulletApplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7303049614595CDC00FE2492 /* OgreBulletApplication.cpp */; };
+		7303049C14595CDC00FE2492 /* OgreBulletGuiListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7303049714595CDC00FE2492 /* OgreBulletGuiListener.cpp */; };
+		7303049D14595CDC00FE2492 /* OgreBulletInputListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7303049814595CDC00FE2492 /* OgreBulletInputListener.cpp */; };
+		7303049E14595CDC00FE2492 /* OgreBulletListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7303049914595CDC00FE2492 /* OgreBulletListener.cpp */; };
+		730304B614595D7500FE2492 /* libOIS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 730304B514595D7500FE2492 /* libOIS.a */; };
+		730304BC14595D8E00FE2492 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730304BB14595D8E00FE2492 /* IOKit.framework */; };
 		7332389814586DFB0082813F /* OgreBullet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7332389714586DFB0082813F /* OgreBullet.framework */; };
 		73D3B79A14586A1100DEE9DC /* RenderSystem_GL.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D3B79914586A1100DEE9DC /* RenderSystem_GL.dylib */; };
 		73D3B79F14586A4C00DEE9DC /* RenderSystem_GL.dylib in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 73D3B79914586A1100DEE9DC /* RenderSystem_GL.dylib */; };
@@ -54,6 +61,20 @@
 		7303046D14595BC500FE2492 /* demoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = demoAppDelegate.h; path = src.objc/demoAppDelegate.h; sourceTree = "<group>"; };
 		7303046E14595BC500FE2492 /* demoAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = demoAppDelegate.mm; path = src.objc/demoAppDelegate.mm; sourceTree = "<group>"; };
 		7303048614595C5800FE2492 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = src.objc/main.m; sourceTree = "<group>"; };
+		7303048A14595CBB00FE2492 /* BetaGUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BetaGUI.h; path = src.cpp/include/BetaGUI.h; sourceTree = "<group>"; };
+		7303048B14595CBB00FE2492 /* ExampleApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleApplication.h; path = src.cpp/include/ExampleApplication.h; sourceTree = "<group>"; };
+		7303048C14595CBB00FE2492 /* ExampleFrameListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleFrameListener.h; path = src.cpp/include/ExampleFrameListener.h; sourceTree = "<group>"; };
+		7303048D14595CBB00FE2492 /* OgreBulletApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OgreBulletApplication.h; path = src.cpp/include/OgreBulletApplication.h; sourceTree = "<group>"; };
+		7303048E14595CBB00FE2492 /* OgreBulletGuiListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OgreBulletGuiListener.h; path = src.cpp/include/OgreBulletGuiListener.h; sourceTree = "<group>"; };
+		7303048F14595CBB00FE2492 /* OgreBulletInputListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OgreBulletInputListener.h; path = src.cpp/include/OgreBulletInputListener.h; sourceTree = "<group>"; };
+		7303049014595CBB00FE2492 /* OgreBulletListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OgreBulletListener.h; path = src.cpp/include/OgreBulletListener.h; sourceTree = "<group>"; };
+		7303049514595CDC00FE2492 /* BetaGUI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BetaGUI.cpp; path = src.cpp/common/BetaGUI.cpp; sourceTree = "<group>"; };
+		7303049614595CDC00FE2492 /* OgreBulletApplication.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OgreBulletApplication.cpp; path = src.cpp/common/OgreBulletApplication.cpp; sourceTree = "<group>"; };
+		7303049714595CDC00FE2492 /* OgreBulletGuiListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OgreBulletGuiListener.cpp; path = src.cpp/common/OgreBulletGuiListener.cpp; sourceTree = "<group>"; };
+		7303049814595CDC00FE2492 /* OgreBulletInputListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OgreBulletInputListener.cpp; path = src.cpp/common/OgreBulletInputListener.cpp; sourceTree = "<group>"; };
+		7303049914595CDC00FE2492 /* OgreBulletListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OgreBulletListener.cpp; path = src.cpp/common/OgreBulletListener.cpp; sourceTree = "<group>"; };
+		730304B514595D7500FE2492 /* libOIS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOIS.a; path = ../Dependencies/lib/Debug/libOIS.a; sourceTree = SOURCE_ROOT; };
+		730304BB14595D8E00FE2492 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		7332389714586DFB0082813F /* OgreBullet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OgreBullet.framework; path = /Users/ianbaldwin/Library/Frameworks/OgreBullet.framework; sourceTree = "<absolute>"; };
 		73D3B79914586A1100DEE9DC /* RenderSystem_GL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = RenderSystem_GL.dylib; path = ../ogre.build/lib/Debug/RenderSystem_GL.dylib; sourceTree = SOURCE_ROOT; };
 		73D3B7BB14586AA200DEE9DC /* Ogre.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogre.framework; path = /Users/ianbaldwin/Library/Frameworks/Ogre.framework; sourceTree = "<absolute>"; };
@@ -71,6 +92,8 @@
 				73D3B79A14586A1100DEE9DC /* RenderSystem_GL.dylib in Frameworks */,
 				73D3B7BC14586AA200DEE9DC /* Ogre.framework in Frameworks */,
 				7332389814586DFB0082813F /* OgreBullet.framework in Frameworks */,
+				730304B614595D7500FE2492 /* libOIS.a in Frameworks */,
+				730304BC14595D8E00FE2492 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +103,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				7303048614595C5800FE2492 /* main.m */,
 				7303046D14595BC500FE2492 /* demoAppDelegate.h */,
 				7303046E14595BC500FE2492 /* demoAppDelegate.mm */,
 			);
@@ -91,6 +115,7 @@
 			children = (
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 				73D3B7BB14586AA200DEE9DC /* Ogre.framework */,
+				730304BB14595D8E00FE2492 /* IOKit.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -130,7 +155,18 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				7303048614595C5800FE2492 /* main.m */,
+				7303049514595CDC00FE2492 /* BetaGUI.cpp */,
+				7303049614595CDC00FE2492 /* OgreBulletApplication.cpp */,
+				7303049714595CDC00FE2492 /* OgreBulletGuiListener.cpp */,
+				7303049814595CDC00FE2492 /* OgreBulletInputListener.cpp */,
+				7303049914595CDC00FE2492 /* OgreBulletListener.cpp */,
+				7303048A14595CBB00FE2492 /* BetaGUI.h */,
+				7303048B14595CBB00FE2492 /* ExampleApplication.h */,
+				7303048C14595CBB00FE2492 /* ExampleFrameListener.h */,
+				7303048D14595CBB00FE2492 /* OgreBulletApplication.h */,
+				7303048E14595CBB00FE2492 /* OgreBulletGuiListener.h */,
+				7303048F14595CBB00FE2492 /* OgreBulletInputListener.h */,
+				7303049014595CBB00FE2492 /* OgreBulletListener.h */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -158,6 +194,7 @@
 		73D3B798145869FC00DEE9DC /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				730304B514595D7500FE2492 /* libOIS.a */,
 				73D3B79914586A1100DEE9DC /* RenderSystem_GL.dylib */,
 			);
 			name = Plugins;
@@ -229,6 +266,11 @@
 			files = (
 				7303046F14595BC500FE2492 /* demoAppDelegate.mm in Sources */,
 				7303048714595C5800FE2492 /* main.m in Sources */,
+				7303049A14595CDC00FE2492 /* BetaGUI.cpp in Sources */,
+				7303049B14595CDC00FE2492 /* OgreBulletApplication.cpp in Sources */,
+				7303049C14595CDC00FE2492 /* OgreBulletGuiListener.cpp in Sources */,
+				7303049D14595CDC00FE2492 /* OgreBulletInputListener.cpp in Sources */,
+				7303049E14595CDC00FE2492 /* OgreBulletListener.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +316,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../ogre.build/lib/Debug\"",
+					"\"$(SRCROOT)/../Dependencies/lib/Debug\"",
 				);
 				PRODUCT_NAME = OgreBulletDemo;
 			};
@@ -296,6 +339,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../ogre.build/lib/Debug\"",
+					"\"$(SRCROOT)/../Dependencies/lib/Debug\"",
 				);
 				PRODUCT_NAME = OgreBulletDemo;
 			};
@@ -310,6 +354,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
+					/Users/ianbaldwin/code/simulation/Dependencies/include,
 					/usr/local/include/bullet,
 					/usr/local/include,
 					/Users/ianbaldwin/code/thirdparty/boost,
