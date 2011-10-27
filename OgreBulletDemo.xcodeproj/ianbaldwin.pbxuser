@@ -1,6 +1,12 @@
 // !$*UTF8*$!
 {
 	256AC3D80F4B6AC300CF3369 /* demoAppDelegate.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = demoAppDelegate.h;
+		path = /Users/ianbaldwin/code/simulation/ogre.bullet.demo/demoAppDelegate.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1411, 681}}";
 			sepNavSelRange = "{131, 0}";
@@ -8,6 +14,12 @@
 		};
 	};
 	256AC3D90F4B6AC300CF3369 /* demoAppDelegate.mm */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.cpp.objcpp;
+		name = demoAppDelegate.mm;
+		path = /Users/ianbaldwin/code/simulation/ogre.bullet.demo/demoAppDelegate.mm;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1411, 1040}}";
 			sepNavSelRange = "{3001, 0}";
@@ -32,7 +44,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					1233,
+					968,
 					20,
 					48,
 					43,
@@ -54,7 +66,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					1193,
+					928,
 					60,
 					20,
 					48,
@@ -76,6 +88,7 @@
 		};
 		perUserProjectItems = {
 			730304581459598200FE2492 /* PBXTextBookmark */ = 730304581459598200FE2492 /* PBXTextBookmark */;
+			7303047B14595C1600FE2492 /* PBXTextBookmark */ = 7303047B14595C1600FE2492 /* PBXTextBookmark */;
 			733238AB14586E350082813F = 733238AB14586E350082813F /* PBXTextBookmark */;
 			733238AC14586E350082813F = 733238AC14586E350082813F /* PBXTextBookmark */;
 			733238AD14586E350082813F = 733238AD14586E350082813F /* PBXTextBookmark */;
@@ -99,6 +112,16 @@
 		rLoc = 303;
 		rType = 0;
 		vrLen = 1293;
+		vrLoc = 0;
+	};
+	7303047B14595C1600FE2492 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7332389C14586E040082813F /* OgreBulletCollisionsPreRequisites.h */;
+		name = "OgreBulletCollisionsPreRequisites.h: 39";
+		rLen = 0;
+		rLoc = 1746;
+		rType = 0;
+		vrLen = 1929;
 		vrLoc = 0;
 	};
 	7332389214586D4E0082813F /* vehicle_demo.h */ = {
@@ -134,6 +157,11 @@
 		name = OgreBulletCollisionsPreRequisites.h;
 		path = /Users/ianbaldwin/code/simulation/ogre.bullet.demo/../../../Library/Frameworks/OgreBullet.framework/Headers/OgreBulletCollisionsPreRequisites.h;
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1235}}";
+			sepNavSelRange = "{1746, 0}";
+			sepNavVisRange = "{0, 1929}";
+		};
 	};
 	733238AB14586E350082813F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
